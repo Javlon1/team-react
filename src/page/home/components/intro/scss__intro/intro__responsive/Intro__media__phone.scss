@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    .home{
+        background-position: left, bottom right 200px;
+        height: 700px;
+        .container{
+            padding-top: 200px;
+            text-align: center;
+            display: block;
+            .title{
+                margin: 0 auto;
+                width: 583px;
+                height: 112px;
+                font-weight: 700;
+                font-size: 70px;
+                line-height: 66px;
+            }
+            .text{
+                margin: 0 auto;
+                .line{
+                    display: none;
+                }
+                .discription{
+                    margin-top: 79px;
+                    width: 457px;
+                    height: 85px;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}

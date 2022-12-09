@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    .team{
+        max-width: 768px;
+        height: 1199px;
+        .container{
+            padding-top: 100px;
+            .title{
+                width: 473px;
+                height: 96px;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 32px;
+            }
+            .teams{
+                margin-top: 100px;
+                width: 768px;
+                display: block; 
+                justify-content: space-around;
+                &__info{
+                    &__discriptions{
+                        padding-right: 0;
+                        margin: 0 auto;
+                        padding-top: 35px;
+                        margin-top: 35px;
+                        width: 653px;
+                        height: 75px;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 25px;
+                        margin-bottom: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

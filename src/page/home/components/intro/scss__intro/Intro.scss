@@ -1,0 +1,40 @@
+.home{
+    background: url(../../../../../img/intro-left.png), url(../../../../../img/intro-bottom-right.png)  #014E56;
+    background-repeat: no-repeat;
+    background-position: left, bottom right 30%;
+    height: 100vh;
+    .container{
+        padding-top: 300px;
+        display: flex;
+        align-items: center;
+        .title{
+            width: 635px;
+            height: 200px;
+            color: #fff;
+            font-weight: 800;
+            font-size: 100px;
+            .tal{ 
+                color: #F67E7E;
+            } 
+        }
+        .text{
+            margin-left: 30px;
+            width: 445px;
+            height: 195px;
+            .line{
+                background: #79C8C7;
+                width: 50px;
+                height: 4px;
+            }
+            .discription{
+                margin-top: 79px;
+                width: 445px;
+                height: 112px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                color: #fff;
+            }
+        }
+    }
+}

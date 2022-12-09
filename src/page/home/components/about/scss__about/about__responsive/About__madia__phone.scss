@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+    .about{
+        background-position: top right;
+        height: 750px;
+        max-width: 768;
+        .container{
+            display: block;        
+            .left{
+                margin-top: 0;
+                padding-top: 130px;
+                margin-left: 90px;
+                &__title{
+                    margin-top: 54px;
+                    width: 445px;
+                    height: 64px;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 32px;
+                }
+            }
+            .right{
+                margin-top: 70px;
+                margin-left: 90px;
+                &__experienced{
+                    margin-bottom: 32px;
+                    display: flex;
+                    align-items: center;
+                    &__title{
+                        font-weight: 700;
+                        line-height: 28px;
+                        font-size: 18px;
+                    }
+                    &__text{
+                        margin-top: 16px;
+                        color: #fff;
+                        width: 445px;
+                    }
+                }
+                &__easy{
+                    margin-bottom: 32px;
+                    display: flex;
+                    align-items: center;
+                    &__title{
+                        color: #F67E7E;
+                        font-weight: 700;
+                        line-height: 28px;
+                        font-size: 18px;
+                    }
+                    &__text{
+                        margin-top: 16px;
+                        color: #fff;
+                        width: 445px;
+                    }
+                }
+                &__enhanced{
+                    margin-bottom: 32px;
+                    display: flex;
+                    align-items: center;
+                    &__title{
+                        color: #F67E7E;
+                        font-weight: 700;
+                        line-height: 28px;
+                        font-size: 18px;
+                    }
+                    &__text{
+                        margin-top: 16px;
+                        color: #fff;
+                        width: 445px;
+                    }
+                }
+            }
+        }
+    }
+}

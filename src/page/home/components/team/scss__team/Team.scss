@@ -1,0 +1,61 @@
+.team{
+    background: url(../../../../../img/team-left-top.svg), url(../../../../../img/team-bottom-right.svg) #004047;
+    background-repeat: no-repeat;
+    background-position: left top, bottom right;
+    height: 100vh;
+    .container{
+        padding-top: 160px;
+        .title{
+            margin: 0 auto;
+            text-align: center;
+            width: 932px;
+            height: 96px;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            font-style: normal;
+            color: #fff;
+            .spam{
+                color:#79C8C7;
+            }
+        }
+        .teams{
+            margin-top: 100px;
+            width: 100%;
+            display: flex; 
+            text-align: center;
+            justify-content: space-between;
+            &__info{
+                background: url(../../../../../img/“.png);
+                background-repeat: no-repeat;
+                background-position: top;
+                &__discriptions{
+                    margin-top: 35px;
+                    width: 320px;
+                    height: 100px;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #fff;
+                    margin-bottom: 20px;
+                }
+                &__name{
+                    color: #79C8C7;
+                    font-family: 'Livvic';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 28px;
+                    margin-bottom: 20px;
+                }
+                &__position{
+                    font-family: 'Livvic';
+                    font-size: 13px;
+                    line-height: 18px;
+                    color: #fff;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

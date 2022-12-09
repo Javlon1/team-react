@@ -1,0 +1,78 @@
+.about{
+    background: url(../../../../../img/about-bottom-right.png) #012F34;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100vh;
+    .container{
+        display: flex;        
+        .left{
+            margin-top: 200px;
+            &__minus{
+                background: #F67E7E;
+                width: 50px;
+                height: 4px;
+            }
+            &__title{
+                margin-top: 54px;
+                width: 445px;
+                height: 144px;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 48px;
+                color: #fff;
+            }
+        }
+        .right{
+            margin-top: 250px;
+            margin-left: 156px;
+            &__experienced{
+                margin-bottom: 32px;
+                display: flex;
+                align-items: center;
+                &__title{
+                    color: #F67E7E;
+                    font-weight: 700;
+                    line-height: 28px;
+                    font-size: 18px;
+                }
+                &__text{
+                    margin-top: 16px;
+                    color: #fff;
+                    width: 445px;
+                }
+            }
+            &__easy{
+                margin-bottom: 32px;
+                display: flex;
+                align-items: center;
+                &__title{
+                    color: #F67E7E;
+                    font-weight: 700;
+                    line-height: 28px;
+                    font-size: 18px;
+                }
+                &__text{
+                    margin-top: 16px;
+                    color: #fff;
+                    width: 445px;
+                }
+            }
+            &__enhanced{
+                margin-bottom: 32px;
+                display: flex;
+                align-items: center;
+                &__title{
+                    color: #F67E7E;
+                    font-weight: 700;
+                    line-height: 28px;
+                    font-size: 18px;
+                }
+                &__text{
+                    margin-top: 16px;
+                    color: #fff;
+                    width: 445px;
+                }
+            }
+        }
+    }
+}
